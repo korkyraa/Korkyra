@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Log In</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../style/login-register.css">
+</head>
+<body>
+<div class="login-clean">
+    <form action="" method="post">
+        <h2 class="text-center">Admin Login</h2>
+        <div class="illustration"><i class="icon ion-lock-combination"></i></div>
+        <div class="form-group">
+            <input class="form-control" type="email" id="email" name="adminemail" autocomplete="off" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" id="password" name="adminpassword" placeholder="Password">
+        </div>
+        <div id="status">
+                    </div>
+        <div class="form-group">
+            <input class="btn btn-primary btn-block" name="adminlogin" id="login" type="submit" value="Log In">
+        </div>
+    </form>
+</div>
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website_korkyra&utm_content=footer_img"><img src="https://cloud.githubusercontent.com/assets/23024110/20663010/9968df22-b55e-11e6-941d-edbc894c2b78.png"  alt="www.000webhost.com"></a></div></body>
+</html>
